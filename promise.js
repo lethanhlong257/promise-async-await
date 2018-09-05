@@ -1,10 +1,6 @@
 const axios = require('axios');
+const add = require('./add');
 
-function add(a, b) {
-    setTimeout(() => {
-        return a+b;
-    }, 100);
-}
 
 function minus(a, b) {
     setTimeout(() => {
@@ -24,6 +20,8 @@ function divide(a, b) {
     }, 100);
 }
 
+
+
 const a = 3,
     b = 4,
     c = 5;
@@ -32,5 +30,9 @@ const a = 3,
 // (a+b)*c    
 add(a,b)
 const result = multiple(add(a+b), c);
+
+const addPromise = new Promise(
+   
+)
 
 console.log(result);
