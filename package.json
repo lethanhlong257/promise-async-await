@@ -1,0 +1,14 @@
+{
+  "name": "promise-async-await",
+  "version": "1.0.0",
+  "description": "sharing",
+  "main": "server.js",
+  "repository": "https://github.com/lethanhlong257/promise-async-await.git",
+  "author": "Long",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3"
+  }
+}
