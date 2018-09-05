@@ -31,8 +31,4 @@ const a = 3,
 add(a,b)
 const result = multiple(add(a+b), c);
 
-const addPromise = new Promise(
-   
-)
-
 console.log(result);
