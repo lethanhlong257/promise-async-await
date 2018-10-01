@@ -1,7 +1,7 @@
-module.exports = function addFunc(a, b, cb) {
+module.exports = function minusFunc(a, b, cb) {
     if (typeof a !== 'number') return false;
     if (typeof b !== 'number') return false;
     setTimeout(() => {
-        cb(a+b)
+        cb(a-b)
     }, 100);
 }
